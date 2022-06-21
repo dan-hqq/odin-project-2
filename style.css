@@ -2,29 +2,30 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .content_1{
     background-color: #1f2937;
-    min-height: 683px;
+    min-height: 520px;
 }
 
 .content_2{
     background-color: white;
-    min-height: 635px;
+    min-height: 483px;
 }
 
 .content_3{
     background-color: #e5e7eb;
-    min-height: 548px;
+    min-height: 417px;
 }
 
 .content_4{
     background-color: white;
-    min-height: 448px;
+    min-height: 340px;
 }
 
 .footer{
     background-color: #1f2937;
-    min-height: 127px;
+    min-height: 96px;
 }
