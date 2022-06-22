@@ -147,6 +147,50 @@ button{
 .content_4{
     background-color: white;
     min-height: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.back{
+    background-color: #3882f6;
+    height: auto;
+    margin: auto;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+
+.top{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8
+}
+
+.bottom{
+    color: #e5e7eb
+}
+
+.right{
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.back button{
+    margin: 0;
+    border: 2px solid white;
 }
 
 .footer{
