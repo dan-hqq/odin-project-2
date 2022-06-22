@@ -80,6 +80,46 @@ button{
 .content_2{
     background-color: white;
     min-height: 483px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_2 .boxes{
+    display: flex;
+    margin: auto;
+}
+
+.information_header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: auto;
+}
+
+.boxes{
+    justify-self: center;
+    align-self: flex-start;
+}
+
+.content_2_box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.im_ill{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6; 
+    border-radius: 15px;
+}
+
+.subtext{
+    margin: 3px;
+    text-align: center;
 }
 
 .content_3{
