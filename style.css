@@ -174,11 +174,11 @@ button{
 .top{
     font-size: 24px;
     font-weight: bold;
-    color: #f9faf8
+    color: #f9faf8;
 }
 
 .bottom{
-    color: #e5e7eb
+    color: #e5e7eb;
 }
 
 .right{
@@ -196,5 +196,9 @@ button{
 .footer{
     background-color: #1f2937;
     min-height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
 
