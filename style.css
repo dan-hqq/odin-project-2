@@ -86,7 +86,8 @@ button{
 
 .content_2 .boxes{
     display: flex;
-    margin: auto;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .information_header{
@@ -94,7 +95,10 @@ button{
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
-    margin: auto;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxes{
@@ -162,6 +166,7 @@ button{
     align-items: center;
     box-sizing: border-box;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .left{
