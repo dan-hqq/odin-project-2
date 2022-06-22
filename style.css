@@ -125,6 +125,23 @@ button{
 .content_3{
     background-color: #e5e7eb;
     min-height: 417px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-top: auto;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    color:#1f2937;
+    margin-bottom: auto;
+    text-align: end;
 }
 
 .content_4{
